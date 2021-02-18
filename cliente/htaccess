@@ -1,0 +1,2 @@
+Options -Indexes
+SetEnv TZ 'America/Fortaleza';

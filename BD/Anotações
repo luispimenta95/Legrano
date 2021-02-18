@@ -1,0 +1,6 @@
+Problemas 
+-Pagamento individual pelo pop-up da página
+- Alteração do plano 
+
+
+SELECT data_pagamento,foto_aluno,nome_aluno,cpf,email,ativo,nascimento,telefone,entrada,nome_plano,valor_plano FROM pagamento pa inner join aluno a on pa.id_aluno = a.id_aluno INNER JOIN plano p on a.plano = p.id_plano order by data_pagamento DESC LIMIT 2
